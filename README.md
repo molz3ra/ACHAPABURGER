@@ -1,6 +1,6 @@
 # 🍔 A Chapa Burger | Delivery App
 
-![Preview do Projeto](/public/img/preview.png) *(Nota: Depois você pode tirar um print da sua tela inteira e salvar como preview.png na pasta public/img para aparecer aqui!)*
+![Preview do Projeto](/public/img/preview.png)
 
 ## 💻 Sobre o Projeto
 
