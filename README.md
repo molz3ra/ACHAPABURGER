@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 A Chapa Burger | Delivery App
 
-## Getting Started
+![Preview do Projeto](/public/img/preview.png) *(Nota: Depois você pode tirar um print da sua tela inteira e salvar como preview.png na pasta public/img para aparecer aqui!)*
 
-First, run the development server:
+## 💻 Sobre o Projeto
 
-```bash
+O **A Chapa Burger** é uma aplicação web de front-end desenvolvida para simular a experiência de um aplicativo de delivery de uma hamburgueria artesanal. 
+
+Criado como um projeto de portfólio por um estudante de Sistemas de Informação da FIAP, o foco desta aplicação é demonstrar o domínio sobre componentes modernos de interface (UI/UX), gerenciamento de estado complexo no React e integração direta com links dinâmicos para conversão de vendas.
+
+## ✨ Funcionalidades
+
+* **Menu Interativo:** Exibição clara e responsiva dos lanches, acompanhamentos e bebidas.
+* **Carrinho de Compras Inteligente:** Gerenciamento de estado global da sacola, permitindo adicionar itens, alterar a quantidade dinamicamente e remover produtos, com cálculo automático do valor total.
+* **Integração com WhatsApp:** Ao finalizar, a aplicação formata todo o conteúdo do carrinho (itens, quantidades e total) e gera um redirecionamento automático para o WhatsApp do restaurante.
+* **Animações e Micro-interações:** Utilização de Framer Motion para criar componentes visuais premium, como o emblema giratório (Spinning Text) no topo da página.
+* **Design Responsivo:** Layout fluido construído com Tailwind CSS, perfeitamente adaptável para Mobile e Desktop.
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+* **[Next.js](https://nextjs.org/)** (App Router)
+* **[React](https://reactjs.org/)** (Hooks: `useState`)
+* **[TypeScript](https://www.typescriptlang.org/)** (Tipagem de dados do carrinho)
+* **[Tailwind CSS](https://tailwindcss.com/)** (Estilização utilitária)
+* **[Framer Motion](https://www.framer.com/motion/)** (Animações complexas e SVGs dinâmicos)
+
+## 🚀 Como rodar o projeto localmente
+
+1. Faça o clone deste repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/a-chapa-burger.git](https://github.com/SEU-USUARIO/a-chapa-burger.git)
+Acesse a pasta do projeto:
+
+Bash
+cd a-chapa-burger
+Instale as dependências:
+
+Bash
+npm install
+Inicie o servidor de desenvolvimento:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra http://localhost:3000 no seu navegador para ver o projeto funcionando.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desenvolvido com 💛 por Molz3ra Corp.
